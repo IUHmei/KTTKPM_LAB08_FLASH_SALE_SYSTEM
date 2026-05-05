@@ -1,0 +1,8 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: product-service
+  redis:
+    host: 192.168.1.10
+    port: 6379
