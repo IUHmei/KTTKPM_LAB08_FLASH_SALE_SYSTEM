@@ -5,8 +5,9 @@ import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.UUID;
-
+@CrossOrigin(origins = "http://localhost:5174")
 @RestController
+@RequestMapping("/checkout")
 public class OrderController {
 
     @Autowired
