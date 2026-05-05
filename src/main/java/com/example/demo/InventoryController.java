@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/inventory")
-@CrossOrigin(origins = "*") // Quan trọng: Để Frontend hoặc Service khác gọi được trong LAN
+@CrossOrigin(origins = "http://localhost:5174")  // Quan trọng: Để Frontend hoặc Service khác gọi được trong LAN. Link point to Redis host
 public class InventoryController {
 
 	@Autowired
