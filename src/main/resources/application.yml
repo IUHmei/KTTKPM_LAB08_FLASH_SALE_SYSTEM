@@ -1,0 +1,8 @@
+spring:
+  data:
+    redis:
+      host: 172.16.35.47
+      port: 6379
+
+server:
+  port: 8083
